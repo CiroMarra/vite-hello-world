@@ -21,9 +21,8 @@
         background-image: url(../assets/StrikeApp.png);
         background-size: cover;
         background-position: center;
-        color: #ffffff;
         display: flex;
-        flex-direction: column;
+
         justify-content: center;
         align-items: center;
         width: 1000px;

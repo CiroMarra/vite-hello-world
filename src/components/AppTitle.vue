@@ -1,4 +1,5 @@
 <script>
+
     export default {
         name: 'AppTitle',
         data() {
@@ -17,6 +18,10 @@
     <h1>{{ myTitle }}</h1>
 </template>
 
-<style>
+<style scoped>
+h1 {
+    color: yellow;
+    font-size: 5rem;
+}
 
 </style>

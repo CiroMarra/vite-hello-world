@@ -1,12 +1,21 @@
-<script setup>
+<script>
+import Apptitle from './components/AppTitle.vue';
+
+export default {
+  components: {
+    Apptitle
+  }
+}
 
 </script>
 
 <template>
-  <h1>ciao ciao</h1>
+  <main>
+    <Apptitle></Apptitle>
+  </main>
   
 </template>
 
-<style scoped>
+<style>
 
 </style>
